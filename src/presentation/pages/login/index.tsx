@@ -2,9 +2,9 @@ import React from 'react'
 import Styles from './styles.scss'
 import {
   Footer,
+  FormStatus,
   Input,
-  LoginHeader as Header,
-  Spinner
+  LoginHeader as Header
 } from '@/presentation/components'
 
 const Login: React.FC = () => {
@@ -19,10 +19,7 @@ const Login: React.FC = () => {
           Entrar
         </button>
         <span className={Styles.link}>Criar conta</span>
-        <div className={Styles.errorWrap}>
-          <Spinner className={Styles.spinner} />
-          <span className={Styles.error}>Erro</span>
-        </div>
+        <FormStatus />
       </form>
       <Footer />
     </div>
