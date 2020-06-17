@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import Styles from './styles.scss'
+import Styles from './form-status-styles.scss'
 import { Spinner } from '..'
 import { FormContext as Context } from '@/presentation/contexts'
 

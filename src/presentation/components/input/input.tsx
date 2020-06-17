@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import Styles from './styles.scss'
+import Styles from './input-styles.scss'
 import { FormContext as Context } from '@/presentation/contexts'
 
 type Props = React.DetailedHTMLProps<
